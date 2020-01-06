@@ -1,0 +1,44 @@
+.foto img::before{
+	content: ' ';
+	position: absolute;
+	
+
+
+}
+.foto{
+	border:1px solid red;
+	position: absolute;
+	border-radius: 50%;
+	background: linear-gradient(50deg,red,gray,#fb0094,#00ff00,#ff00ff,white,yellow,green);
+	transition: 15s;
+	animation: orbita 15s linear infinite;
+	background-size: 150%;
+}
+.foto img{
+	border-radius: 100%;
+	position: relative;
+	width: 150px;
+	height: auto;
+	margin: 10px;
+	border: 1px solid red;
+
+
+
+	/*transition: 20s;*/
+	/*transition: 5s;*/
+	
+	animation:orbit 5s  infinite;
+
+}
+/*.foto img:hover{
+	transform:scaleX(-1);
+	transition: 4s;
+}*/
+
+@keyframes orbita{
+
+	 100%{
+	 	background-position: 500% 0;
+	 }
+
+}

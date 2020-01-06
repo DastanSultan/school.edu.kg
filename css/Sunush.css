@@ -1,0 +1,37 @@
+.logo {
+text-align: center;
+}
+.logo img{
+	width: 200px;
+	height: auto;
+	transition: 1s;
+}
+.logo img:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.whatsapp{
+text-align: center;
+}
+.whatsapp img{
+	width: 200px;
+	height: auto;
+	transition: 1s;
+}
+.whatsapp a{
+	color: black;
+	text-decoration:none;
+	font-size: 20px;
+	animation: linear 5s fgd  infinite;
+	transition: 5s;
+}
+@keyframes  fgd{
+	10%{transform: scale(5);
+		transition: 5s;}
+	100%{transform: scale(5);}
+	100%{transform: rotate(45deg);}
+}
+/*.whatsapp img:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}*/

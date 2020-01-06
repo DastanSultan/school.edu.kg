@@ -1,0 +1,79 @@
+body{
+	background: #000;
+	text-align: center;
+	
+}
+.all{
+	max-width: 98%;
+	height: 100%;
+	text-align: center;
+}
+.rasp{
+	background: blue;
+	margin-left: 45%;
+	line-height: 40px;
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	border: 1px solid blue;
+	border-radius: 30%;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.5s;
+	box-shadow:  -1.5px 1px 10.5px rgba(250, 20, 235, 1);
+}
+.rasp:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+
+}
+.rasp a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	background: blue;
+}
+.ras1{
+	margin-top: 50px;
+	margin-left:15%;
+	background: ;
+	display: inline-block;
+
+}
+.a a{
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	transition: 0.5s;
+}
+.a{
+	border-bottom-right-radius: 10%;
+	border-top-right-radius: 10%;
+	text-align: center;
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #000;
+	border: 20px solid transparent; 
+	border-left: 25px solid green; 
+	transition: 0.5s;
+}
+.a:hover{
+	background: #fff;
+	transition: 0.5s;
+	
+}
+.a a:hover{
+	color: #000;
+	transition: 0.5s;
+}
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+

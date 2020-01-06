@@ -1,0 +1,151 @@
+
+body{
+	max-width: 1200px
+}
+#checbox{
+	position: relative;
+
+}
+.mektep{
+	text-align:center;
+	border-bottom:  3px solid #FFFFFF;
+	font-size: 25px;
+	background: #00BFFF;
+	width: 100%;
+	height: 100%;
+}
+.mektep a{
+	color:#000;
+	text-decoration: none;
+}
+
+.shcolnik{
+	width: 90px;
+	height: 135px;
+	border: 1px solid blue;
+	display: inline-block;
+	margin:  10px;
+	transition: 0.5s;
+}
+.log{
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 20px 0;
+}
+.container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	width: 25%;
+}
+.shcolnik img{
+	width: 80%;
+	height: auto;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.shcolnik:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	box-shadow:  0 0 5px 5px #3498DB;
+}
+
+
+.teacher{
+	width: 90px;
+	height: 135px;
+	border: 1px solid blue;
+	display: inline-block;
+	text-align: center;
+	margin-right:  20px;
+	transition: 0.5s;
+
+}
+.teacher:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.teacher a{
+	font-size:  20px;
+	text-decoration: none;
+	color: #000;
+}
+.shcolnik a{
+	font-size:  20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.teacher img{
+	width: 80%;
+	height: auto;
+	border-radius: 100%;
+}
+.oshiy{
+	width: 100%;
+	height: 100%;
+	text-align:center;
+	background: #00BFFF;
+	/*border-bottom: 1px solid red;*/
+}
+#login{
+	margin-top: 90px;
+	font-size: 15px;
+
+}
+#password{
+	font-size: 15px;
+}
+label{
+	font-size: 20px;
+}
+#otpravit{
+	margin-top:10px;
+	margin-left: 40px;
+	font-size: 15px;
+	text-align:center;
+}
+form{
+	background: ;
+}
+.sunush{
+	margin-top: 20px;
+}
+.sunush a{
+	text-decoration:none;
+	text-align:center;
+	color: white;
+	font-size: 18px;
+}
+.salam{
+	margin-top: 25px;
+}
+.salam a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+
+}
+.rasp{
+	display: block;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.rasp a{
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	background: #2874A6;
+	transition: .2s background linear;
+}
+.rasp a:hover{
+	background: #1B4F72;
+}
